@@ -1,4 +1,6 @@
-- [ ] Build branded MenuSense public menu, dish details, and discovery flow.
-- [ ] Connect authentication, saved preferences, recommendations, favorites, feedback, and history.
-- [ ] Add staff/admin management and analytics with access controls.
-- [ ] Verify desktop/mobile screens and core interactions.
+- [x] Build branded MenuSense public menu, dish details, and discovery flow.
+- [x] Connect account sign-in, saved preferences, ranked recommendations, favorites, feedback, and history.
+- [x] Add staff availability controls and admin dish editing with role-based access.
+- [x] Verify desktop/mobile screens and public menu interactions.
+- [ ] Complete the brief's advanced modules: user/category management, analytics charts, configurable scoring weights, natural-language AI explanations, and image coverage for every dish. Blocker: further implementation work.
+- [ ] Verify the complete signed-in preference-to-feedback journey. Blocker: no confirmed test account is available in this new project.

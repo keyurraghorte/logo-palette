@@ -1,0 +1,4 @@
+- [ ] Build branded MenuSense public menu, dish details, and discovery flow.
+- [ ] Connect authentication, saved preferences, recommendations, favorites, feedback, and history.
+- [ ] Add staff/admin management and analytics with access controls.
+- [ ] Verify desktop/mobile screens and core interactions.

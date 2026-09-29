@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { MenuSense } from '@/components/MenuSense';
+export const Route=createFileRoute('/menu/$id')({head:({params})=>({meta:[{title:`Dish Details | MenuSense`},{name:'description',content:'Explore ingredients, nutrition, and dietary details for a MenuSense dish.'},{property:'og:title',content:'Dish Details | MenuSense'},{property:'og:description',content:'Explore a dish from the MenuSense hotel menu.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),component:()=>{const {id}=Route.useParams();return <MenuSense view="detail" id={id}/>}});

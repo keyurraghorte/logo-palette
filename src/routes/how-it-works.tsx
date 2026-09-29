@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { MenuSense } from '@/components/MenuSense';
+export const Route=createFileRoute('/how-it-works')({head:()=>({meta:[{title:'How It Works | MenuSense'},{name:'description',content:'Discover how MenuSense recommends the right dishes for you.'},{property:'og:title',content:'How It Works | MenuSense'},{property:'og:description',content:'Discover how MenuSense recommends the right dishes for you.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),component:()=> <MenuSense view="how-it-works"/>});

@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { MenuSense } from '@/components/MenuSense';
+export const Route=createFileRoute('/menu')({head:()=>({meta:[{title:'Our Menu | MenuSense'},{name:'description',content:'Explore a curated hotel menu with dietary details and delicious dishes.'},{property:'og:title',content:'Our Menu | MenuSense'},{property:'og:description',content:'Explore a curated hotel menu with dietary details and delicious dishes.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),component:()=> <MenuSense view="menu"/>});

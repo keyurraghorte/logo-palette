@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { MenuSense } from '@/components/MenuSense';
+export const Route=createFileRoute('/privacy')({head:()=>({meta:[{title:'Privacy | MenuSense'},{name:'description',content:'Read how MenuSense handles your dining preferences and account details.'},{property:'og:title',content:'Privacy | MenuSense'},{property:'og:description',content:'Read how MenuSense handles your dining preferences and account details.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),component:()=> <MenuSense view="privacy"/>});
